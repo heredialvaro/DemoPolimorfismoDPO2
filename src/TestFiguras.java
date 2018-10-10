@@ -2,12 +2,13 @@ public class TestFiguras {
 
     public static void main (String[] args) {
 
-        Figura[] arrayFiguras = new Figura[3];
+
+        Figura[] arrayFiguras = new Figura[4];
 
         arrayFiguras[0] = new Rectangulo(2,5);
         arrayFiguras[1] = new Circulo(2);
         arrayFiguras[2] = new Cuadrado(3);
-
+        arrayFiguras[3] = new Cuadrado(5);
 
         for (Figura figura: arrayFiguras) {
 
