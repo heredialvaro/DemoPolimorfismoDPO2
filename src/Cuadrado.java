@@ -7,13 +7,6 @@ public class Cuadrado extends Figura {
         this.lado = lado;
     }
 
-    public int getLado() {
-        return lado;
-    }
-
-    public void setLado(int lado) {
-        this.lado = lado;
-    }
 
     @Override
     public double calcularArea() {

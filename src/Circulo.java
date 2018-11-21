@@ -11,13 +11,6 @@ public class Circulo extends Figura{
         this.radio = radio;
     }
 
-    public void setRadio(int radio) {
-        this.radio = radio;
-    }
-
-    public int getRadio() {
-        return radio;
-    }
 
     @Override
     public String toString() {
